@@ -51,3 +51,14 @@ export interface EverythingResponse {
     totalResults: number;
     articles: Article[];
 }
+export interface Options {
+    sources?: string;
+    apiKey?: string;
+}
+export enum Method {
+    GET = 'GET',
+    POST = 'POST',
+    PUT = 'PUT',
+    DELETE = 'DELETE',
+}
+export type CallbackFunction = (data: TopHeadlinesResponse) => void;

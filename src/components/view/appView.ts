@@ -2,7 +2,6 @@ import News from './news/news';
 import Sources from './sources/sources';
 import { TopHeadlinesResponse, SourcesResponse } from '../../types/interfaces';
 
-
 export class AppView {
     news: News;
     sources: Sources;
