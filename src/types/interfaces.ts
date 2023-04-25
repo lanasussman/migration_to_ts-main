@@ -31,6 +31,7 @@ export interface TopHeadlinesResponse {
     status: string;
     totalResults: number;
     articles: Article[];
+    sources: Source[];
 }
 
 export interface EverythingParams {
